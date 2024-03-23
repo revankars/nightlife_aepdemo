@@ -12,4 +12,4 @@ To deploy changes to GitHub Pages, run `npm run deploy`.
 
 ## Viewing
 
-To view the demo on GitHub Pages, visit https://revankar.github.io/aep-demo/.
+To view the demo on GitHub Pages, visit https://nightlife_aepdemogi.github.io/aep-demo/
