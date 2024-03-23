@@ -2,7 +2,7 @@
   "name": "contentdeveloperslive",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/nightlife_aepdemo",
+  "homepage": "http://revankars.github.io/nightlife_aepdemo",
   "dependencies": {
     "@adobe/react-spectrum": "^3.7.0",
     "@spectrum-icons/workflow": "^3.2.0",
