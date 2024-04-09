@@ -16,12 +16,7 @@ import CreditCard from "@spectrum-icons/workflow/CreditCard";
 import { useState, useCallback } from "react";
 import "./App.css";
 
-const products = [
-<<<<<<< HEAD
-   {
-=======
-  {
->>>>>>> 758f91a (Styling was updated and new product list)
+const products = [ {
     sku: "LLMH09",
     name: "Abominable Hoodie",
     price: 34.76,
@@ -131,42 +126,29 @@ function App() {
         >
           {(product) => <Item key={product.sku}>{product.name}</Item>}
         </Picker>
-<<<<<<< HEAD
-         <Heading level="1" >Adobe Experience Platform - Example</Heading>
-        <Flex direction="column" alignItems="flex-start" gap="size-100">
-            <Heading level="2" >1. Commerce | AddToCart  </Heading>
-=======
-        <Heading level="1" >Adobe Experience Platform - Example</Heading>
-
-        <Flex direction="column" alignItems="flex-start" gap="size-100">
-        <Heading level="2" >1. Commerce | AddToCart  </Heading>
->>>>>>> 758f91a (Styling was updated and new product list)
-          <Button
-            id="addToCartButton"
-            variant="primary"
-            isDisabled={!selectedProductSku}
-          >
-            <ShoppingCart marginEnd="size-65" />
-            Add to Cart
-          </Button>
-          <Heading level="2">2. Commerce | Purchase  </Heading>
-          <Button
-            id="purchaseButton"
-            variant="primary"
-            isDisabled={!selectedProductSku}
-          >
-            <CreditCard marginEnd="size-65" />
-            Purchase
-          </Button>
-        </Flex>
-<<<<<<< HEAD
-        
-        <Flex direction="column" alignItems="flex-start" gap="size-100">
-          <Heading level="2">3. Commerce | Product Review </Heading>
-=======
+         <Heading level="1" >Adobe Experience Platform - Examples</Heading>
+           <Flex direction="column" alignItems="flex-start" gap="size-100">
+              <Heading level="2" >1. Commerce | AddToCart  </Heading>
+                <Button
+                  id="addToCartButton"
+                  variant="primary"
+                  isDisabled={!selectedProductSku}
+                >
+                  <ShoppingCart marginEnd="size-65" />
+                  Add to Cart
+                </Button>
+              <Heading level="2">2. Commerce | Purchase  </Heading>
+              <Button
+                id="purchaseButton"
+                variant="primary"
+                isDisabled={!selectedProductSku}
+              >
+                <CreditCard marginEnd="size-65" />
+                Purchase
+              </Button>
+          </Flex>
         <Flex direction="column" alignItems="flex-start" gap="size-100">
         <Heading level="2">3. Commerce | Product Review </Heading>
->>>>>>> 758f91a (Styling was updated and new product list)
           <TextField
             label="Email Address"
             value={reviewerId}
