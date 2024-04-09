@@ -17,7 +17,11 @@ import { useState, useCallback } from "react";
 import "./App.css";
 
 const products = [
+<<<<<<< HEAD
    {
+=======
+  {
+>>>>>>> 758f91a (Styling was updated and new product list)
     sku: "LLMH09",
     name: "Abominable Hoodie",
     price: 34.76,
@@ -38,11 +42,11 @@ const products = [
 const ratingOptions = [
   {
     rating: 1,
-    reviewText: "Rubbish",
+    reviewText: "Worthless",
   },
   {
     rating: 2,
-    reviewText: "Okay",
+    reviewText: "OK",
   },
   {
     rating: 3,
@@ -50,11 +54,11 @@ const ratingOptions = [
   },
   {
     rating: 4,
-    reviewText: "Great",
+    reviewText: "Excellent",
   },
   {
     rating: 5,
-    reviewText: "Fantastic!",
+    reviewText: "Fabulous!",
   },
 ];
 
@@ -127,16 +131,23 @@ function App() {
         >
           {(product) => <Item key={product.sku}>{product.name}</Item>}
         </Picker>
+<<<<<<< HEAD
          <Heading level="1" >Adobe Experience Platform - Example</Heading>
         <Flex direction="column" alignItems="flex-start" gap="size-100">
             <Heading level="2" >1. Commerce | AddToCart  </Heading>
+=======
+        <Heading level="1" >Adobe Experience Platform - Example</Heading>
+
+        <Flex direction="column" alignItems="flex-start" gap="size-100">
+        <Heading level="2" >1. Commerce | AddToCart  </Heading>
+>>>>>>> 758f91a (Styling was updated and new product list)
           <Button
             id="addToCartButton"
             variant="primary"
             isDisabled={!selectedProductSku}
           >
             <ShoppingCart marginEnd="size-65" />
-            Add to cart
+            Add to Cart
           </Button>
           <Heading level="2">2. Commerce | Purchase  </Heading>
           <Button
@@ -148,9 +159,14 @@ function App() {
             Purchase
           </Button>
         </Flex>
+<<<<<<< HEAD
         
         <Flex direction="column" alignItems="flex-start" gap="size-100">
           <Heading level="2">3. Commerce | Product Review </Heading>
+=======
+        <Flex direction="column" alignItems="flex-start" gap="size-100">
+        <Heading level="2">3. Commerce | Product Review </Heading>
+>>>>>>> 758f91a (Styling was updated and new product list)
           <TextField
             label="Email Address"
             value={reviewerId}
