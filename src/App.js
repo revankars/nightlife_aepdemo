@@ -17,21 +17,22 @@ import { useState, useCallback } from "react";
 import "./App.css";
 
 const products = [
-  {
-    sku: "SHOES123",
-    name: "Red canvas shoes",
+   {
+    sku: "LLMH09",
+    name: "Abominable Hoodie",
     price: 34.76,
     currencyCode: "USD",
   },
   {
-    sku: "SHOES456",
-    name: "Brown leather shoes",
+    sku: "LLWJ08",
+    name: "Adrienne Trek Jacket",
     price: 52.81,
     currencyCode: "USD",
   },
-  { sku: "HAT567", name: "Wool Hat", price: 25.15, currencyCode: "USD" },
-  { sku: "HAT089", name: "Straw Hat", price: 11.85, currencyCode: "USD" },
-  { sku: "HAT090", name: "Monkey Hat", price: 14.85, currencyCode: "USD" },
+  { sku: "LLMS01", name: "Aero Daily Fitness Tee", price: 25.15, currencyCode: "USD" },
+  { sku: "LLMH12", name: "Ajax Full-Zip Sweatshirt", price: 11.85, currencyCode: "USD" },
+  { sku: "LLWSH10", name: "Ana Running Short", price: 14.85, currencyCode: "USD" },
+  { sku: "LLWH06", name: "Daphne Full-Zip Hoodie", price: 14.85, currencyCode: "USD" },
 ];
 
 const ratingOptions = [
@@ -118,7 +119,7 @@ function App() {
     <Provider theme={defaultTheme} colorScheme="light" minHeight="100vh">
       <View padding="size-250">
         <Picker
-          label="Product"
+          label="List of Products"
           items={products}
           selectedKey={selectedProductSku}
           onSelectionChange={setSelectedProductSku}
@@ -126,8 +127,9 @@ function App() {
         >
           {(product) => <Item key={product.sku}>{product.name}</Item>}
         </Picker>
-        <Heading level="1">XDM Commerce Example</Heading>
+         <Heading level="1" >Adobe Experience Platform - Example</Heading>
         <Flex direction="column" alignItems="flex-start" gap="size-100">
+            <Heading level="2" >1. Commerce | AddToCart  </Heading>
           <Button
             id="addToCartButton"
             variant="primary"
@@ -136,6 +138,7 @@ function App() {
             <ShoppingCart marginEnd="size-65" />
             Add to cart
           </Button>
+          <Heading level="2">2. Commerce | Purchase  </Heading>
           <Button
             id="purchaseButton"
             variant="primary"
@@ -145,8 +148,9 @@ function App() {
             Purchase
           </Button>
         </Flex>
-        <Heading level="1">XDM Product Review Example</Heading>
+        
         <Flex direction="column" alignItems="flex-start" gap="size-100">
+          <Heading level="2">3. Commerce | Product Review </Heading>
           <TextField
             label="Email Address"
             value={reviewerId}
