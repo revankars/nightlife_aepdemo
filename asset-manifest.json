@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/nightlife_aepdemo/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/nightlife_aepdemo/static/js/main.28566c18.chunk.js",
-    "main.js.map": "/nightlife_aepdemo/static/js/main.28566c18.chunk.js.map",
+    "main.css": "/nightlife_aepdemo/static/css/main.3454fe7f.chunk.css",
+    "main.js": "/nightlife_aepdemo/static/js/main.bd63c672.chunk.js",
+    "main.js.map": "/nightlife_aepdemo/static/js/main.bd63c672.chunk.js.map",
     "runtime-main.js": "/nightlife_aepdemo/static/js/runtime-main.5a225e08.js",
     "runtime-main.js.map": "/nightlife_aepdemo/static/js/runtime-main.5a225e08.js.map",
     "static/css/2.2f7432a6.chunk.css": "/nightlife_aepdemo/static/css/2.2f7432a6.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.3c29c58e.chunk.js.map": "/nightlife_aepdemo/static/js/3.3c29c58e.chunk.js.map",
     "index.html": "/nightlife_aepdemo/index.html",
     "static/css/2.2f7432a6.chunk.css.map": "/nightlife_aepdemo/static/css/2.2f7432a6.chunk.css.map",
-    "static/css/main.ea1455b2.chunk.css.map": "/nightlife_aepdemo/static/css/main.ea1455b2.chunk.css.map",
+    "static/css/main.3454fe7f.chunk.css.map": "/nightlife_aepdemo/static/css/main.3454fe7f.chunk.css.map",
     "static/js/2.99879b81.chunk.js.LICENSE.txt": "/nightlife_aepdemo/static/js/2.99879b81.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5a225e08.js",
     "static/css/2.2f7432a6.chunk.css",
     "static/js/2.99879b81.chunk.js",
-    "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.28566c18.chunk.js"
+    "static/css/main.3454fe7f.chunk.css",
+    "static/js/main.bd63c672.chunk.js"
   ]
 }
