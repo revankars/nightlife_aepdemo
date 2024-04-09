@@ -1,0 +1,19 @@
+body {
+    background-color: #6C0345;
+    color: rgb(189, 224, 174);
+    padding: 40px;
+    font-family: cursive;
+    text-align: left;
+  }
+h1 {
+    text-align: center;
+    color: rgb(254, 255, 254);
+    background-color: #DC6B19 ;
+}
+
+h2 {
+    text-align: left;
+    color: rgb(12, 12, 12);
+    background-color: #F7C566; ;
+
+}
